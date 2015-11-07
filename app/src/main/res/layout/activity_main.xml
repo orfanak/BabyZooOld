@@ -1,0 +1,199 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+<LinearLayout
+    android:layout_width="380dp"
+    android:layout_height="498dp"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" 
+    android:background="#FFFFFF" >
+
+  <TableRow
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" >
+         
+          <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/sound_text"
+        android:textColor="#FF0000"
+        android:textSize="24sp" />         
+  </TableRow>
+  
+  <TableRow
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" >
+
+    <ImageButton
+        android:id="@+id/imageButtonCat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButtonPig"
+        android:layout_alignTop="@+id/imageButtonDuck"
+        android:background="@drawable/cat"
+        android:paddingRight="8sp"
+        android:layout_marginRight="5sp"
+        android:layout_weight="1"
+        android:onClick="Cat" />
+
+    <ImageButton
+        android:id="@+id/imageButtonBird"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="0sp"
+        android:background="@drawable/bird"
+        android:layout_weight="1"
+        android:onClick="Bird"
+        android:paddingRight="8sp" />
+
+    <ImageButton
+        android:id="@+id/imageButtonGoat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButtonPig"
+        android:layout_toRightOf="@+id/imageButtonCat"
+        android:layout_marginRight="10sp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:onClick="Goat"
+        android:src="@drawable/goat"
+        android:paddingRight="8sp" />
+    </TableRow>
+    
+<TableRow
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+   
+    <ImageButton
+        android:id="@+id/imageButtonChicken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tableRow1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="10sp"
+        android:background="@drawable/chicken"
+        android:paddingRight="8sp"
+        android:layout_weight="1"
+        android:onClick="Chicken" />
+
+    <ImageButton
+        android:id="@+id/imageButtonCow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageButtonGoat"
+        android:layout_alignRight="@+id/comments"
+        android:layout_marginBottom="12dp"
+        android:layout_marginRight="10sp"
+        android:background="@drawable/cow"
+        android:paddingRight="8sp"
+        android:layout_weight="1"
+        android:onClick="Cow" />
+
+    <ImageButton
+        android:id="@+id/imageButtonSnake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButtonDuck"
+        android:layout_alignLeft="@+id/imageButtonChicken"
+        android:background="@drawable/snake"
+        android:paddingRight="8sp"
+        android:layout_marginRight="10sp"
+        android:layout_weight="1"
+        android:onClick="Snake" />
+    </TableRow>
+    
+<TableRow
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ImageButton
+        android:id="@+id/imageButtonDog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/dog"
+        android:layout_marginRight="16sp"
+        android:layout_weight="1"
+        android:onClick="Dog"
+        android:paddingRight="8sp" />
+
+    <ImageButton
+        android:id="@+id/imageButtonSheep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sheep"
+        android:onClick="Sheep"
+        android:paddingRight="8sp" 
+        android:layout_weight="1"
+        android:layout_marginRight="32sp"/>
+
+    <ImageButton
+        android:id="@+id/imageButtonPig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pig"
+        android:onClick="Pig"
+        android:paddingRight="8sp" 
+        android:layout_weight="1"
+        android:layout_marginRight="8sp"/>
+
+</TableRow>
+
+<TableRow
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ImageButton
+        android:id="@+id/imageButtonFrog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButtonDog"
+        android:layout_alignRight="@+id/imageButtonDuck"
+        android:background="@drawable/frog"
+        android:paddingRight="8sp"
+        android:layout_marginRight="16sp"
+        android:layout_weight="1"
+        android:onClick="Frog" />
+
+    <ImageButton
+        android:id="@+id/imageButtonDonkey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButtonSheep"
+        android:layout_below="@+id/tableRow1"
+        android:background="@drawable/donkey"
+        android:paddingRight="8sp"
+        android:layout_marginRight="16sp"
+        android:layout_weight="1"
+        android:onClick="Donkey" />
+
+    <ImageButton
+        android:id="@+id/imageButtonDuck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/duck"
+        android:paddingRight="8sp"
+        android:layout_marginRight="16sp"
+        android:layout_weight="1"
+        android:onClick="Duck" />
+</TableRow>
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#FFFF33"
+    android:background="#559933"
+    android:text="Info" />
+
+</LinearLayout>
+</ScrollView>

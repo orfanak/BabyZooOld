@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ζωάκια</string>
+    <string name="action_settings">Ρυθμίσεις</string>
+    <string name="sound_text">Πως κάνει το....;</string>
+    <string name="version_1_0">  Baby  Zoo  Version 1.0   Orfanak, February 2014</string>
+    <string name="Snake">Φίδι</string>
+    <string name="Pig">Γουρούνι</string>
+    <string name="Cow">Αγελάδα</string>
+    <string name="Bird">Πουλί</string>
+    <string name="Sheep">Πρόβατο</string>
+    <string name="Cat">Γάτα</string>
+    <string name="Dog">Σκύλος</string>
+    <string name="Chicken">Κότα</string>
+    <string name="Duck">Πάπια</string>
+    <string name="Donkey">Γάιδαρος</string>
+    <string name="Frog">Βάτραχος</string>
+     <string name="Goat">Κατσίκα</string>
+
+</resources>
